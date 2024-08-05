@@ -2,7 +2,25 @@
 module.exports = {
   content: ["./*html"],
   theme: {
-    extend: {},
+    fontFamily:{
+      'Vokhov': ["Volkhov","serif"],
+      Lobster: ["Lobster","sans-serif"]
+    },
+    extend: {
+      borderColor:{
+        'borderRed': '1px',
+        borderColor: "red",
+        
+
+      },
+      backgroundSize:{
+        '16': '55%',
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/images/Decore.png')",
+        
+      }
+    },
     
   },
     "plugins": ["prettier-plugin-tailwindcss"]
