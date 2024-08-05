@@ -5,7 +5,8 @@ module.exports = {
     extend: {},
     
   },
-  plugins: [],
+    "plugins": ["prettier-plugin-tailwindcss"]
+
   
   // npx tailwindcss -i ./input.css -o ./output.css --watch
 }
