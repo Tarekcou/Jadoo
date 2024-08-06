@@ -917,6 +917,10 @@ video {
   height: #300;
 }
 
+.h-5{
+  height: 1.25rem;
+}
+
 .max-h-16{
   max-height: 4rem;
 }
@@ -1641,6 +1645,10 @@ video {
 
   .md\:h-\[350px\]{
     height: 350px;
+  }
+
+  .md\:h-10{
+    height: 2.5rem;
   }
 
   .md\:max-h-7{
