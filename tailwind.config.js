@@ -20,12 +20,13 @@ module.exports = {
         'hero-pattern': "url('/images/Decore.png')",
         
       }
+      
     },
     
   },
     "plugins": ["prettier-plugin-tailwindcss"]
 
   
-  // npx tailwindcss -i ./input.css -o ./output.css --watch
+  // npx tailwindcss -i ./style.css -o ./output.css --watch
 }
 

@@ -17,7 +17,7 @@
             alt="Logo "
           />
           <ul
-            class="flex justify-around md:justify-center items-center gap-4 md:gap-12 mt-3 md:mt-0"
+            class="flex justify-around md:justify-center items-center gap-4 md:gap-12 mt-3 md:mt-0 flex-wrap"
           >
             <li>Destination</li>
             <li>Hotels</li>
@@ -33,16 +33,16 @@
         </nav>
 
         <!-- Banner Body section -->
-        <section class="flex md:flex-row flex-col justify-center  items-center ">
-          <div class="flex-grow space-y-4 ">
+        <section class="flex md:flex-row flex-col justify-center items-center">
+          <div class="basis-1/2 h-full space-y-4 mt-10">
             <h1
               class="shadow-sm font-semibold text-orange-700 text-base md:text-xl uppercase"
             >
               Best Destinations Around The World
             </h1>
-            <h1 class="text-5xl md:text-[84px] text-[#181E4B]">
-              Travel, <span class="underline-offset-8">enjoy</span> <br />and
-              live a new <br />and full life
+            <h1 class="text-4xl md:text-7xl text-[#181E4B]">
+              Travel, <span>enjoy</span> <br />and live a new <br />and full
+              life
             </h1>
             <p class="text-base">
               Built Wicket longer admire do barton vanity itself do in it.
@@ -68,68 +68,311 @@
               </div>
             </div>
           </div>
-          <div class="flex-grow flex justify-start items-start pt-4 relative">
+
+          <div class="basis-1/2 flex justify-start items-start pt-4 relative">
             <img
-              class="max-w-[600px] h-full -translate-x-14 z-10"
+              class="max-w-full max-h-full -translate-x-12 z-10"
               src="images/Traveller 1.png"
               alt=""
-              />
-              <img class="absolute top-7 left-6" src="images/plane.png" alt="plane1">
-              <img class="absolute top-16 right-4" src="images/plane.png" alt="plane2">
+            />
+            <img
+              class="absolute top-7 left-6"
+              src="images/plane.png"
+              alt="plane1"
+            />
+            <img
+              class="absolute top-16 right-4"
+              src="images/plane.png"
+              alt="plane2"
+            />
           </div>
         </section>
       </div>
     </section>
 
-
     <!-- Category Section -->
-     <section class="mx-auto w-11/12 md:w-10/12">
-        <h3>Category</h3>
-        <h1>We Offer Best Services</h1>
-        <div class="flex items-center justify-center gap-16 ">
-          <div class="flex-col items-center justify-center text-center space-y-4  p-16">
-            <div class="max-h-16 border flex justify-center items-center relative">
-              <img class="z-10" src="images/satellite-dish.png" alt="satellite-dish">
-              <img class="absolute right-5 top-4" src="images/Rectangle 156.png" alt="Rectangle">
-            </div>
-            
-            <h2>Calculated Weather  </h2>
-            <p>Built Wicket longer admire do barton vanity itself do in it.</p>
-          </div>
-          <div class="text-center space-y-4 rounded-b-xl shadow-md z-10 relative p-8">
-            <div class= " max-h-16  flex items-center justify-center ">
-              <img src="images/Group (1).png" alt="plane">
-              <img src="images/Rectangle 158.png" alt="Rectangle">
-            </div>
-           
-            <h2>Best Flights</h2>
-            <p>Engrossed listening. Park gate sell they west hard for the.</p>
-            
-            <img class="absolute left-1 top-20 max-w-sm z-0" src="images/Rectangle 157.png" alt="Rectangle">
+    <section class="mx-auto w-11/12 md:w-10/12 mt-8 space-y-4 text-center">
+      <h4 class="uppercase font-thin">Category</h4>
+      <h1 class="md:text-3xl text-2xl">We Offer Best Services</h1>
 
-        
+      <div
+        class="grid grid-cols-2 md:flex-row md:flex items-center justify-center gap-16"
+      >
+        <!-- category card 1 -->
+        <div
+          class="border flex-col items-center justify-center text-center rounded-b-xl shadow-md p-8 space-y-4"
+        >
+          <div class="max-h-16 flex justify-center items-center relative">
+            <img
+              class="z-10"
+              src="images/satellite-dish.png"
+              alt="satellite-dish"
+            />
+            <img
+              class="absolute right-5 top-4"
+              src="images/Rectangle 156.png"
+              alt="Rectangle"
+            />
+          </div>
 
+          <h2>Calculated Weather</h2>
+          <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+        </div>
+        <!-- category card-2 -->
+        <div
+          class="text-center space-y-4 rounded-b-xl shadow-md relative p-8 bg-white"
+        >
+          <div class="max-h-16 flex items-center justify-center relative z-10">
+            <img class="" src="images/Group (1).png" alt="plane" />
+            <img
+              class="absolute left-10 -z-10"
+              src="images/Rectangle 158.png"
+              alt="Rectangle"
+            />
           </div>
-          <div class="flex-col items-center justify-center text-center space-y-4">
-            <div class="max-h-16 flex justify-center items-center">
-              <img src="images/image 25.png" alt="mike">
-              <img src="images/Rectangle 159.png" alt="Rectangle">
-            </div>
-            <h2>Local Events</h2>
-            <p>Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
+
+          <h2>Best Flights</h2>
+          <p>Engrossed listening. Park gate sell they west hard for the.</p>
+
+          <img
+            class="absolute -left-12 -bottom-10 max-w-sm -z-10"
+            src="images/Rectangle 157.png"
+            alt="Rectangle"
+          />
+        </div>
+        <!-- category card-3 -->
+        <div
+          class="flex-col items-center justify-center text-center space-y-4 rounded-b-xl shadow-md p-8"
+        >
+          <div class="max-h-16 flex justify-center items-center relative z-10">
+            <img src="images/image 25.png" alt="mike" />
+            <img
+              class="-z-10 absolute right-10 top-0"
+              src="images/Rectangle 159.png"
+              alt="Rectangle"
+            />
           </div>
-          <div class="flex-col items-center justify-center text-center space-y-4">
-            <div class="max-h-16 flex items-center justify-center">
-              <img src="images/power-supply 1.png" alt="power">
-              <img src="images/Rectangle 160.png" alt="power">
-            </div>
-            
-            <h2>Customization</h2>
-            <p>We deliver outsourced
-            aviation services for
-            military customers</p>
+          <h2>Local Events</h2>
+          <p>
+            Barton vanity itself do in it. Preferd to men it engrossed
+            listening.
+          </p>
+        </div>
+        <!-- category card-4 -->
+        <div
+          class="flex-col items-center justify-center text-center space-y-4 p-8 rounded-b-xl shadow-md z-10"
+        >
+          <div class="-z-10 relative max-h-16 flex items-center justify-center">
+            <img src="images/power-supply 1.png" alt="power" />
+            <img
+              class="absolute -z-10 top-5 right-8"
+              src="images/Rectangle 160.png"
+              alt="power"
+            />
+          </div>
+
+          <h2 class="pt-4">Customization</h2>
+          <p class="">
+            We deliver outsourced aviation services for military customers
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Destination -->
+    <section
+      class="mx-auto w-11/12 md:w-10/12 text-center mt-20 space-y-8 relative z-10"
+    >
+      <h2>Top Selling</h2>
+      <h1 class="text-4xl">Top Destinations</h1>
+      <!-- card DIV -->
+      <div
+        class="grid grid-cols-2 md:flex md:flex-row items-center justify-center gap-8 w-11/12 mx-auto"
+      >
+        <!-- card-1 -->
+        <div
+          class="basis-1/3 rounded-lg shadow-2xl md:flex md:flex-col gap-4 space-y-3 pb-8"
+        >
+          <img
+            class="rounded-t-2xl md:h-[350px] w-full"
+            src="images/rome.jpeg"
+            alt="London"
+          />
+          <div class="flex justify-between px-4">
+            <p>Rome, Italy</p>
+            <p>$5.42k</p>
+          </div>
+          <div class="flex gap-3 px-4">
+            <img src="images/navigation 1.png" alt="location" />
+            <p>10 Days Trip</p>
           </div>
         </div>
-     </section>
+
+        <!-- card 2 -->
+        <div
+          class="basis-1/3 rounded-lg shadow-2xl md:flex md:flex-col space-y-3 gap-4 pb-8"
+        >
+          <img
+            class="rounded-t-2xl md:h-[350px] w-full"
+            src="images/paris.jpeg"
+            alt="London"
+          />
+          <div class="flex justify-between px-4">
+            <p>London, UK</p>
+            <p>$4.2k</p>
+          </div>
+          <div class="flex gap-3 px-4">
+            <img src="images/navigation 1.png" alt="location" />
+            <p>12 Dyas Trip</p>
+          </div>
+        </div>
+        <!-- cardx -3 -->
+        <div
+          class="basis-1/3 rounded-lg shadow-2xl md:flex md:flex-col gap-4 space-y-3 pb-8 z-10 bg-white"
+        >
+          <img
+            class="rounded-t-2xl md:h-[350px] w-full"
+            src="images/europe.jpeg"
+            alt="Europe"
+          />
+          <div class="flex justify-between px-4">
+            <p>Full Europe</p>
+            <p>$15k</p>
+          </div>
+          <div class="flex gap-2 px-4">
+            <img src="images/navigation 1.png" alt="location" />
+            <p>28 Days Trip</p>
+          </div>
+        </div>
+        <img
+          class="absolute bottom-16 right-12 md:right-0 md:top-1/2 -z-10"
+          src="images/Decore (1).png"
+          alt="Decore"
+        />
+      </div>
+      <!-- card end -->
+    </section>
+
+    <!-- Book Next Trip -->
+    <section
+      class="flex md:flex-row flex-col justify-between mx-auto w-11/12 md:w-10/12 mt-20 gap-10"
+    >
+      <div class="basis-1/2 place-items-center space-y-6">
+        <h3 class="font-semibold text-lg">Easy and Fast</h3>
+        <h1 class="text-5xl">
+          Book your next trip <br />
+          in 3 easy steps
+        </h1>
+        <div class="flex gap-6 items-center">
+          <img class="h-12" src="images/Group 7.png " alt="destination" />
+          <div>
+            <h1 class="text-black font-bold">Choose Destination</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Incidunt, necessitatibus!
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-6">
+          <img class="h-12" src="images/Group 12.png" alt="payment" />
+          <div>
+            <h1 class="font-bold">Make Payment</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis,
+              quidem.
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-6">
+          <img class="h-12" src="images/Group 12.png" alt="airport" />
+          <div>
+            <h1 class="font-bold">Reach Airport on Selected Date</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+              officiis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- trip to greece -->
+      <div
+        class="basis-1/2 max-w-fit flex items-center justify-center gap-10 relative mx-auto"
+      >
+        <div class="mx-auto p-5 space-y-5 rounded-xl shadow-lg">
+          <img class="rounded-2xl" src="images/Rectangle 17.jpg" alt="trip" />
+          <h2>Trip to Greece</h2>
+          <p>14-29 June | by Robbin desh</p>
+          <div class="flex gap-5">
+            <img
+              class="border-1 p-2 rounded-full bg-gray-100"
+              src="images/leaf 1.png"
+              alt=""
+            />
+            <img
+              class="border-1 p-2 rounded-full bg-gray-100"
+              src="images/map 1.png"
+              alt=""
+            /><img
+              class="border-1 p-2 rounded-full bg-gray-100"
+              src="images/Vector (1).png"
+              alt=""
+            />
+          </div>
+          <div class="flex justify-between gap-3">
+            <img class="grow-0 w-5" src="images/Group (2).png" alt="" />
+            <p class="grow">24 people going</p>
+            <img class="grow-0 w-5" src="images/heart.png" alt="" />
+          </div>
+        </div>
+
+        <!-- trip to rome -->
+        <div
+          class="flex justify-start items-center absolute -right-16 bottom-24 gap-3 p-3 bg-white rounded-lg shadow-md"
+        >
+          <img src="images/Mask Group.png" alt="" />
+          <div>
+            <p1 class="text-[#b9b0e8]">Ongoing</p1>
+            <h2>Trip to rome</h2>
+            <p><span class="text-[#8A79DF]">40%</span> completed</p>
+            <div class="w-4/5 h-2 bg-gray-300">
+              <div class="w-1/2 h-full bg-[#8A79DF] border"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- company name -->
+    <section
+      class="h-10 flex flex-wrap justify-between items-center md:flex-nowrap md:flex-row mx-auto w-11/12 md:w-10/12 mt-20"
+    >
+      <img src="images/image axon.png" alt="" /><img
+        src="images/image 28.png"
+        alt=""
+      /><img src="images/image 29.png" alt="" /><img
+        src="images/image 30.png"
+        alt=""
+      /><img src="images/image 31.png" alt="" />
+    </section>
+
+    <!-- subscription -->
+    <section
+      class="flex flex-col justify-center gap-5 mx-auto w-11/12 h-[300px] md:w-10/12 rounded-tl-[96px] *:space-x-5 mt-20 bg-[#dfd7f976] bg-[url('images/Rectangle 164.png')]"
+    >
+      <h1 class="w-2/3 mx-auto text-center text-3xl">
+        Subscribe to get information, latest news and other interesting offers
+        about Jadoo
+      </h1>
+      <div class="flex w-7/12 gap-3 mx-auto -2 place-items-center">
+        <input
+          class="h-10 w-5/6 mr-2 p-1 bg-white rounded-lg"
+          type="text"
+          name=""
+          id=""
+          placeholder="Your email"
+        />
+        <button class="h-10 w-1/6 rounded-xl bg-orange-400">Subscribe</button>
+      </div>
+    </section>
   </body>
 </html>
